@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+  <defs>
+    <pattern id="pattern" width="23.09" height="40" viewBox="0 0 34.64101615137755,60" patternUnits="userSpaceOnUse" patternTransform="rotate(135) ">
+      <rect id="pattern-background" width="400%" height="400%" fill="rgba(26, 32, 44,1)"/>
+      <path fill="rgba(74, 85, 104,1)" d="M36.37 39 L36.37 41 L32.91 39 L34.64 38 L34.64 42 L32.91 41 L34.64 40 z" stroke-linejoin="miter"/>
+      <path fill="rgba(74, 85, 104,1)" d="M19.05 49 L19.05 51 L15.59 49 L17.32 48 L17.32 52 L15.59 51 L17.32 50 z" stroke-linejoin="miter"/>
+      <path fill="rgba(74, 85, 104,1)" d="M1.73 39 L1.73 41 L-1.73 39 L0 38 L0 42 L-1.73 41 L0 40 z" stroke-linejoin="miter"/>
+      <path fill="rgba(74, 85, 104,1)" d="M1.73 19 L1.73 21 L-1.73 19 L0 18 L0 22 L-1.73 21 L0 20 z" stroke-linejoin="miter"/>
+      <path fill="rgba(74, 85, 104,1)" d="M19.05 9 L19.05 11 L15.59 9 L17.32 8 L17.32 12 L15.59 11 L17.32 10 z" stroke-linejoin="miter"/>
+      <path fill="rgba(74, 85, 104,1)" d="M36.37 19 L36.37 21 L32.91 19 L34.64 18 L34.64 22 L32.91 21 L34.64 20 z" stroke-linejoin="miter"/>
+      <path fill="#ecc94b" d="M34.64 42 L36.37 41 L32.91 39 L32.91 41 L36.37 39 L34.64 38 L34.64 40 z" stroke-linejoin="miter"/>
+      <path fill="#ecc94b" d="M17.32 52 L19.05 51 L15.59 49 L15.59 51 L19.05 49 L17.32 48 L17.32 50 z" stroke-linejoin="miter"/>
+      <path fill="#ecc94b" d="M0 42 L1.73 41 L-1.73 39 L-1.73 41 L1.73 39 L0 38 L0 40 z" stroke-linejoin="miter"/>
+      <path fill="#ecc94b" d="M0 22 L1.73 21 L-1.73 19 L-1.73 21 L1.73 19 L0 18 L0 20 z" stroke-linejoin="miter"/>
+      <path fill="#ecc94b" d="M17.32 12 L19.05 11 L15.59 9 L15.59 11 L19.05 9 L17.32 8 L17.32 10 z" stroke-linejoin="miter"/>
+      <path fill="#ecc94b" d="M34.64 22 L36.37 21 L32.91 19 L32.91 21 L36.37 19 L34.64 18 L34.64 20 z" stroke-linejoin="miter"/>
+      <path fill="rgba(74, 85, 104,1)" d="M19.92 28.5 L19.92 31.5 L14.72 28.5 L17.32 27 L17.32 33 L14.72 31.5 L17.32 30 z" stroke-linejoin="miter"/>
+    </pattern>
+  </defs>
+  <rect fill="url(#pattern)" height="100%" width="100%"/>
+</svg>

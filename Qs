@@ -1,0 +1,45 @@
+data = {
+            '1':{
+                'q':'I need to find the way to a shop that a friend has recommended. I would:',
+                'V':'find out where the shop is in relation to somewhere I know.',
+                'A':'use a map',
+                'K':'write down the street directions I need to remember.'
+                },
+            '2':{
+                'q':'I want to find out more about a tour that I am going on. I would:',
+                'V':'talk with the person who planned the tour or others who are going on the tour',
+                'A':' use a map and see where the places are.',
+                'K':'look at details about the highlights and activities on the tour.'
+                },
+            '3':{
+                'q':'I want to find out about a house or an apartment. Before visiting it I would want',
+                'V':'to view a video of the property.',
+                'A':'a discussion with the owner.',
+                'K':'a plan showing the rooms and a map of the area.'
+                },
+            '4':{
+                'q':'I have a problem with my heart. I would prefer that the doctor:',
+                'V':'showed me a diagram of what was wrong.',
+                'A':'described what was wrong',
+                'K':'used a plastic model to show me what was wrong.'
+                },
+            '5':{
+                'q':'I have finished a competition or test and I would like some feedback. I would like to have feedback',
+                'V':'from somebody who talks it through with me',
+                'A':'using examples from what I have done',
+                'K':'using a written description of my results.'
+                },
+            '6':{
+                'q':'A website has a video showing how to make a special graph or chart. There is a person speaking, some lists and words describing what to do and some diagrams. I would learn most from',
+                'V':'seeing the diagrams',
+                'A':'listening',
+                'K':'watching the actions'
+                },
+            '7':{
+                'q':'I want to save more money and to decide between a range of options. I would',
+                'V':'consider examples of each option using my financial information.',
+                'A':'read a print brochure that describes the options in detail.',
+                'K':'talk with an expert about the options.'
+                }
+            }
+    return data
