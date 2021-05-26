@@ -12,3 +12,5 @@ This is the Flutter app for PLS.
 * **Feedback:** Asks for user feedback.
 * **Score Screen:** Shows graph for PLS for the current quiz session.
 * **Database:** The MongoDB Atlas database which stores questions and responses. The keys have been made into placeholders in the codebase and will need to be replaced by the ones provided in the keys document (private).
+
+**NOTE:** Sections can be jumped by exiting, choosing to continue the quiz, and choosing a new scenario.
