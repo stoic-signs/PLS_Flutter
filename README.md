@@ -1,22 +1,16 @@
-<<<<<<< HEAD
-# trial_app
+# Preferred Learning Style
+This is the Flutter app for PLS. 
 
-A new Flutter application.
+## Structure for quiz section
 
-## Getting Started
+* **QuizScreen:** Appears after scenario selection. Uses QuestionController and quiz components (body, option, progress bar, question card) to build a StaefulWidget which updates the questions in a single screen. Has the options to skip or exit. Displays progress at the top.
+* **QuestionController:** Parses the questions database to create a series of Question objects which in turn are used to generate the question cards. It uses page controllers to navigate between the questions and sends responses to the database.
+* **QuestionCard:** Contains question text, options, sliders, as well as the buttons to save response and go to next question or exit.
+* **Body:** Builds a widget using the Question object and the options.
+* **Welcome Screens:** App starting screen, asks for user name, age.
+* **Scenario Selection:** Gives available options for scenarios for the quiz.
+* **Feedback:** Asks for user feedback.
+* **Score Screen:** Shows graph for PLS for the current quiz session.
+* **Database:** The MongoDB Atlas database which stores questions and responses. The keys have been made into placeholders in the codebase and will need to be replaced by the ones provided in the keys document (private).
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# PLS_Flutter
-The Flutter app to determine Preferred Learning Style (PLS)
->>>>>>> 75d8ab57f43c886710318ed8c56b6ae3802cff2e
-# PLS_Flutter
+**NOTE:** Sections can be jumped by exiting, choosing to continue the quiz, and choosing a new scenario.
