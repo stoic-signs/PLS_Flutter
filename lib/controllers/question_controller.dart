@@ -217,7 +217,7 @@ class QuestionController extends GetxController
     print("Initiated connection");
     // var _db;
       try {
-         _db = await Db.create("mongodb+srv://pls_user:OBt3a056pWulvVk8@cluster0.ouci5.mongodb.net/pls_bot?retryWrites=true&w=majority");
+         _db = await Db.create("mongodb+srv://<user>:<password>@cluster0.ouci5.mongodb.net/pls_bot?retryWrites=true&w=majority");
         await _db.open();
       } catch(e){
         print(e);
