@@ -7,7 +7,7 @@ import 'package:websafe_svg/websafe_svg.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class AdminPanel extends StatelessWidget {
-  final _url="https://cloud.mongodb.com/v2/6069059060280a51fe2f6748#clusters";
+  final _url="https://cloud.mongodb.com/v2/6086d4a6fae6c706fed08f9f#clusters";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,13 +27,13 @@ class AdminPanel extends StatelessWidget {
                         color: Colors.white, fontWeight: FontWeight.bold),
                   ),
                   SizedBox(height: 20),
-                  Text("Please visit the link below and sign in to access admin rights:",
+                  Text("Please visit the link below on PC and sign in to access admin rights:",
                       style: Theme.of(context).textTheme.headline6.copyWith()),
                   SizedBox(height: 10),
                   // Text("Enter your information below"),
                   // Spacer(), // 1/6
                   InkWell(
-                    onTap: () => _launchURL(),
+                    onTap: () => _launchURL,
                     child: Container(
                       width: double.infinity,
                       alignment: Alignment.center,
