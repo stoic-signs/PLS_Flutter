@@ -33,7 +33,7 @@ class AdminPanel extends StatelessWidget {
                   // Text("Enter your information below"),
                   // Spacer(), // 1/6
                   InkWell(
-                    onTap: () => _launchURL,
+                    onTap: () => _launchURL(),
                     child: Container(
                       width: double.infinity,
                       alignment: Alignment.center,
